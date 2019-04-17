@@ -1,0 +1,88 @@
+
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: cornsilk;
+}
+
+header {
+/*	border: solid 1px #000;*/
+	margin-bottom: 20px;
+	padding: 20px
+		
+}
+
+/*specificity in Css*/
+header h1 {
+	font-size: 72px;
+}
+
+header h2 {
+	font-family: Georgia, "serif";
+	font-style: italic;
+	text-transform: capitalize;
+	color: #666;
+}
+
+nav {
+	background-color: #333;
+/*	padding: 20px;*/
+	margin-bottom: 20px;
+}
+
+/*pseudo classes define different states of a link*/
+a:link {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #333;
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: azure;
+}
+
+a:hover {
+	background-color: cornsilk;
+	color: #333;
+}
+
+a:active {
+	color: crimson;
+}
+
+article {
+	padding: 20px;
+}
+
+article h1 {
+	font-size: 42px;
+}
+
+figure {
+	margin-bottom: 20px;
+}
+
+article p {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+footer {
+	padding: 20px;
+	background: #333;
+}
+
+footer p {
+	color: #fff;
+	font-family: Georgia, "serif";
+	font-style: italic;
+}

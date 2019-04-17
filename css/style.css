@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,600,800');
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+section a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #cdd422;
+	text-decoration: none;
+}
+
+section a:hover {
+/*	background-color: #cdd422;*/
+	color: #c2dde6;
+}
+
+#s1 {
+	background-color: #e05915;
+	background-size: cover;
+	height: 25%;
+}
+
+#s2 {
+	background-color: #431c5d;
+	background-size: cover;
+	height: 25%;
+}
+
+#s3 {
+	background-color: #ff5177;	
+	background-size: cover;
+	height: 25%;
+}
+
+#s4 {
+	background: url("../images/bg1.jpg") no-repeat fixed center center;
+	background-size: cover;
+}
+
+#s4 article {
+	width: 40%;
+	background-color: #ff5177;
+	padding: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#s5 {
+	background: url("../images/bg2.jpg") no-repeat fixed center center;
+	background-size: cover;
+}
+
+#s5 article {
+	width: 40%;
+	background-color: #ff5177;
+	padding: 20px;
+	position: absolute;
+	bottom: 60px;
+	right: 20px;
+}
+
+#s6 {
+	background-color: #e05915;
+	background-size: cover;
+	height: 25%;
+}
+
+#s7 {
+	background-color: #431c5d;
+	background-size: cover;
+	height: 25%;
+}
+
+article.transbox {
+	opacity: 0.8;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	background-color: #c2dde6;
+}
+
+header {
+/*	border: solid 1px #000;*/
+/*	margin-bottom: 20px;*/
+	padding: 20px;
+		
+}
+
+/*specificity in Css*/
+header h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #431c5d;
+}
+
+header h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+	color: #e05915;
+}
+
+nav {
+	background-color: #cdd422;
+/*	padding: 20px;*/
+/*	margin-bottom: 20px;*/
+	/*position: sticky;*/
+	top: 0;
+}
+
+/*testing dropdwon menu*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cdd422;
+  min-width:inherit;
+/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+/*  padding: 12px 16px;*/
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*pseudo classes define different states of a link*/
+nav a:link {
+	color: #431c5d;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #cdd422;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+nav a:visited {
+	color: #e05915;
+}
+
+nav a:hover {
+	background-color: #cdd422;
+	color: #431c5d;
+}
+
+nav a:active {
+	color: #e05915;
+}
+
+article {
+	padding: 20px;
+}
+
+article h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #cdd422;
+}
+
+figure {
+	margin-bottom: 20px;
+}
+
+article p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #bccbde;
+}
+
+
+footer {
+	padding: 10px;
+	background: #cdd422;
+	display: inline;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+footer p {
+	color: #431c5d;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 12px;
+}

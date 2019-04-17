@@ -1,0 +1,57 @@
+
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+#bgvideo {
+	position: fixed;
+	right: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -1;
+}
+
+#s1 {
+	border: 20px solid #3E66A5;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hgroup {
+	background: rgba(255,255,255,.5);
+	margin: 20px;
+	padding: 60px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 900;
+	color: #fff;
+	font-size: 3vmax;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-style: italic;
+	font-weight: 300;
+	color: #fff;
+	font-size: 2vmax;
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 10px;
+}
